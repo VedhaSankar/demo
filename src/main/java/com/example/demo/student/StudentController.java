@@ -14,6 +14,7 @@ public class StudentController {
 
     private final StudentService studentService;
 
+//    method should be instantiated for us (automatic dependency injection)
     @Autowired
     public StudentController(StudentService studentService) {
         this.studentService = studentService;
